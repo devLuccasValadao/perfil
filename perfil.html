@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="/L&B/images/nficon2016.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="/L&B/css/mediaquerry.css">
+</head>
+
+<body>
+    <div class="container-main-perfil-intro">
+        <div class="logo-perfil">
+            <img src="/L&B/images/netflix.png" alt="logo netflix">
+        </div>
+        <h2 class="text-h2">Quem está assistindo ?</h2>
+        <div class="container-box-main">
+            <div class="container-box-content">
+                <a href="/L&B/parte-2-catalogos/catalogos.html"><img src="/L&B/images/new.png" alt="" width="130px"></a>
+                <p>Bruna</p>
+            </div>
+            <div class="container-box-content">
+                <a href="#"><img src="/L&B/images/me.jpeg" alt="" width="130px"></a>
+                <p>Luccas</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(72deg, #151515 1%, #000000 99%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+      font-weight: 500;
+    }
+
+    .container-main-perfil-intro {
+       margin-top: -5%;  
+    }
+
+    
+    .text-h2 {
+        color: aliceblue;
+        margin-bottom: 30px;
+    }
+
+    .container-box-main {
+        width: 400px;
+        height: 90px;
+        margin-left: -30px;
+        display: flex;
+        gap: 5rem;
+        margin-top: 5%;
+    }
+
+    .container-box-content {
+        width: 100px;
+        height: 100px;
+        gap: 1rem;
+        transition: all 300ms ease-in-out;
+        border-radius: 50px;
+    }
+
+    .container-box-content p {
+        color: aliceblue;
+        margin-left: 40px;
+    }
+
+    .container-box-content:hover {
+        margin-top: -10px;
+        cursor: pointer;
+    }
+</style>
